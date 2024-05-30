@@ -1,13 +1,10 @@
-## Plugins Used
+## Plugin Used
 - [floor](https://pub.dev/packages/floor)
 
 ## Basics of Floor
-**Entity**
-It will represent a database table as well as your business object. It is like a table in SQL which few properties.
-**Data Access Object(DAO)**
-This component is responsible for managing access to the underlying SQLite database. The abstract class contains the method signatures for querying the database.
-**Database**
-It has to be an abstract class that extends FloorDatabase.Using this abstract you can access DAO.
+**Entity** : It will represent a database table as well as your business object. It is like a table in SQL which few properties.
+**Data Access Object(DAO)** : This component is responsible for managing access to the underlying SQLite database. The abstract class contains the method signatures for querying the database.
+**Database** : It has to be an abstract class that extends FloorDatabase.Using this abstract you can access DAO.
 
 Generate Floor Database Code:
 Floor uses code generation to create the database implementation. Run the following command to generate the necessary files:
